@@ -5,6 +5,7 @@ resource "aws_security_group" "main" {
     vpc_id      = var.vpc_id
 
 # aws security group, if we are not giving outboubd traffic, we cant connect to the internet, so its mantaory  to give outbound rule..
+  # outbound is always open, because, traffic ll generate from the instance itself soo....
     egress {
     from_port        = 0
     to_port          = 0
