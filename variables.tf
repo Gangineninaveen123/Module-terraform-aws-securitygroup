@@ -1,24 +1,24 @@
 variable "sg_name" {
-    type = string   #ll give or tell this user need to give variables in their project to create infra-> sg
+    type = string   # mandatory,ll give or tell this user need to give variables in their project to create infra-> sg
     
 }
 
 variable "sg_discription" {
-    type = string #ll give or tell this user need to give variables in their project to create infra-> sg_discription
+    type = string # i am making mandotory, ll give or tell this user need to give variables in their project to create infra-> sg_discription
 }
 
 variable "vpc_id" {
-    type = string #ll give or tell this user need to give variables in their project to create infra-> vpc_id
+    type = string #mandatory, ll give or tell this user need to give variables in their project to create infra-> vpc_id
 
 }
 
 variable "project" {
-    type = string #ll give or tell this user need to give variables in their project to create infra-> project
+    type = string #mandatory,ll give or tell this user need to give variables in their project to create infra-> project
 
 }
 
 variable "environment" {
-    type = string #ll give or tell this user need to give variables in their project to create infra-> environment
+    type = string #mandatory, ll give or tell this user need to give variables in their project to create infra-> environment
 
 }
 
